@@ -6,7 +6,12 @@ const Collection = require('./data-collection.js');
 
 const DATABASE_URL = process.env.DATABASE_URL || 'sqlite::memory:';
 
-const sequelize = new Sequelize(DATABASE_URL);
+const sequelize = new Sequelize(DATABASE_URL, {
+  dialectOptions: {
+    ssl: true,
+    rejectUnauthorized: false,
+  },
+});
 const limiter = limiterModel(sequelize, DataTypes);
 
 module.exports = {
@@ -14,9 +19,4 @@ module.exports = {
   limiter: new Collection(limiter),
 };
 
-// {
-//   dialectOptions: {
-//     ssl: true,
-//     rejectUnauthorized: false,
-//   },
-// }
+

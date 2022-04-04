@@ -9,11 +9,13 @@ Latest Pull Request: https://github.com/AndresMillsGallego/playtime-suggest-api/
 ![API Diagram](brave_ND0FORDD6c.png)
 
 ## Installation
-Clone this repository onto your local machine
-cd into ./basic-auth
-Install package dependencies with npm install
-Author
-Micha Davis
+* Clone this repository onto your local machine
+* cd into ./playtime-suggest-api
+* Install package dependencies with npm install
+
+## Authors
+
+[Andres Mills Gallego](https://github.com/AndresMillsGallego) and [Micha Davis](https://github.com/Micha-L-Davis)
 
 ## Routes
 

@@ -6,7 +6,7 @@ Deployed Site: https://basic-authentication-server.herokuapp.com/
 
 Latest Pull Request: https://github.com/AndresMillsGallego/playtime-suggest-api/pull/1
 
-![API Diagram](brave_ND0FORDD6c)
+![API Diagram](brave_ND0FORDD6c.png)
 
 ## Installation
 Clone this repository onto your local machine

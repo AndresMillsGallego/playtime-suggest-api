@@ -2,7 +2,7 @@
 
 This API server interacts with the Steam API to retrieve lists of games based on criteria provided by the user.  The intent is for this server to provide data to a front-end app which would display a random selection of games within the provided criteria.
 
-Deployed Site: https://basic-authentication-server.herokuapp.com/
+Deployed Site: https://playtime-suggest-api.herokuapp.com/
 
 Latest Pull Request: https://github.com/AndresMillsGallego/playtime-suggest-api/pull/1
 
